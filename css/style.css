@@ -26,8 +26,12 @@ header{
     padding: 15px 40px;
     font-size: 25px;
 }
+.headerTop h4{
+    font-size: 25px;
+}
 .title{
     font-size: 60px;
+    font-weight: 700;
     margin: 50px 0 120px 0;
 }
 .number{
@@ -74,4 +78,13 @@ main{
     padding: 15px 40px;
     background-color: white;
     color: black;
+}
+
+.mainRight h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.mainRight p{
+    font-size: 25px;
+    margin-bottom: 10px;
 }
