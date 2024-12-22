@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 body{
     background-color: rgb(24, 24, 24);
     color: white;
+    font-family: "Press Start 2P", serif;
 }
 header{
     padding: 30px;
@@ -26,17 +28,18 @@ header{
     padding: 15px 40px;
     font-size: 25px;
     border: none;
+    cursor: pointer;
 }
 .headerTop h4{
-    font-size: 25px;
+    font-size: 15px;
 }
 .title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     margin: 50px 0 120px 0;
 }
 .number{
-    width: 130px;
+    width: 200px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -80,17 +83,18 @@ form{
     background-color: white;
     color: black;
     border: none;
+    cursor: pointer;
 }
 
 .mainRight{
-    width: 270px;
+    width: 380px;
     margin-left: 100px;
 }
 .mainRight h3{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 .mainRight p{
-    font-size: 25px;
+    font-size: 17px;
     margin-bottom: 10px;
 }

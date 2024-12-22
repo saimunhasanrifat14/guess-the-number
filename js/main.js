@@ -2,6 +2,11 @@ const userinput = document.querySelector("#userInput")
 const form = document.querySelector('form')
 let rendomNumber = Math.round(Math.random() * 50)
 let againBtn = document.getElementsByClassName(".headerTopAgainBtn")
+const againButton = document.querySelector('.headerTopAgainBtn');
+
+againButton.addEventListener('click', function() {
+  location.reload();
+});
 
 form.addEventListener("submit", () => {
     const userinputValue = +userinput.value
@@ -16,5 +21,7 @@ form.addEventListener("submit", () => {
         document.querySelector(".guessing").innerHTML = "🥳 Correct Number"
         document.querySelector(".number").innerHTML = rendomNumber
     }
-    // userinput.value = ''
+    userinput.value = ''
 })
+
+
