@@ -17,11 +17,13 @@
     </header>
     <main>
         <div class="mainLeft">
-            <input type="number" value="" placeholder="...." class="mainLeft__input">
-            <button type="button" class="mainLeft__button">Check!</button>
+            <form action="#">
+                <input id="userInput" type="number" value="" placeholder="...." class="mainLeft__input">
+                <button type="submit" class="mainLeft__button">Check!</button>
+            </form>
         </div>
         <div class="mainRight">
-            <h3>Start guessing...</h3>
+            <h3 class="guessing">Start guessing...</h3>
             <p>💯 Score: <span>20</span></p>
             <p>🥇 Highscore: <span>0</span></p>
         </div>
