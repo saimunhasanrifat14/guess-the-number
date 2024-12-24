@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(24, 24, 24);
+    background-color: #181818;
     color: white;
     font-family: "Press Start 2P", serif;
 }
@@ -25,10 +25,14 @@ header{
     width: 100%;
 }
 .headerTopAgainBtn{
-    padding: 15px 40px;
-    font-size: 25px;
+    padding: 20px 30px;
+    font-size: 18px;
     border: none;
+    font-family: "Press Start 2P", serif;
     cursor: pointer;
+}
+.headerTopAgainBtn:hover{
+    background-color: rgb(220, 220, 220);
 }
 .headerTop h4{
     font-size: 15px;
@@ -67,23 +71,28 @@ form{
 .mainLeft__input{
     background-color: transparent;
     border: 5px solid white;
-    width: 200px;
+    width: 230px;
     height: 100px;
     padding: 20px;
     text-align: center;
     color: white;
     font-size: 40px;
+    font-family: "Press Start 2P", serif;
 }
 .mainLeft__input::placeholder{
     color: white;
 }
 .mainLeft__button{
-    font-size: 25px;
-    padding: 15px 40px;
+    font-size: 18px;
+    padding: 20px 30px;
     background-color: white;
     color: black;
     border: none;
+    font-family: "Press Start 2P", serif;
     cursor: pointer;
+}
+.mainLeft__button:hover{
+    background-color: rgb(220, 220, 220);
 }
 
 .mainRight{
@@ -92,9 +101,9 @@ form{
 }
 .mainRight h3{
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .mainRight p{
     font-size: 17px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
